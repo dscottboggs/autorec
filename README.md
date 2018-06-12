@@ -1,5 +1,8 @@
 # autorec
-A VERY simple script to start recording automatically when booted. Needs edited and placed in /etc/init.d or some other place to cauase it to boot up.
+A VERY simple script to record continually. Needs placed in your system's init scripts to get it
+to launch on boot, or started manually. I initially wrote this so that I could put it in the init
+folder of a raspberry pi running raspbian and have it continually record audio. The "stop button"
+was to wait until at least minute after you've finished recording and unplug the Pi.
 
 Usage:
 
